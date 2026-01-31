@@ -1,16 +1,5 @@
-# weather_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🌦️ WeatherApp | Mobile Development ProjectProject OverviewThis application was developed as part of the Technologies of Mobile Platforms course. It is a cross-platform mobile application built using Flutter and Dart that provides real-time weather data and forecasts based on the user's geographic location.The goal of the project was to demonstrate core mobile development concepts, including REST API integration, state management, and native platform permissions (GPS).🚀 Key FeaturesReal-time Weather: Displays current temperature, humidity, and weather conditions.Dynamic Backgrounds: UI changes based on the weather status (e.g., Sunny, Rainy, Cloudy).Location-Aware: Uses the geolocator package to automatically fetch weather for the user's current city.Search Functionality: Allows users to manually search for weather data in different cities globally.Responsive Design: Optimized for both iOS and Android platforms.🛠️ Tech StackFramework: FlutterLanguage: DartAPI: OpenWeatherMap API (or specify if using another)State Management: Provider / Bloc / StatefulWidget (choose which one you used)Dependencies: * http: For network requests.geolocator: For GPS coordinates.intl: For date and time formatting.📸 Setup & InstallationClone the repository:Bashgit clone https://github.com/yourusername/weather_app.git
+Install dependencies:Bashflutter pub get
+CocoaPods (iOS/macOS only):Bashcd ios && pod install && cd ..
+Run the app:Bashflutter run
+🎓 Project DetailsSubject: Technologies of Mobile PlatformsAuthor: Wojciech DąbrowskiDate: 2026
